@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		388237471C9F44E200D2648C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388237461C9F44E200D2648C /* AppDelegate.swift */; };
+		388237491C9F44E200D2648C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388237481C9F44E200D2648C /* ViewController.swift */; };
+		3882374C1C9F44E200D2648C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3882374A1C9F44E200D2648C /* Main.storyboard */; };
+		3882374E1C9F44E200D2648C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3882374D1C9F44E200D2648C /* Assets.xcassets */; };
+		388237511C9F44E200D2648C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3882374F1C9F44E200D2648C /* LaunchScreen.storyboard */; };
+		388237591C9F65E600D2648C /* github in Resources */ = {isa = PBXBuildFile; fileRef = 388237581C9F65E600D2648C /* github */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		388237431C9F44E200D2648C /* marcando ruta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "marcando ruta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		388237461C9F44E200D2648C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		388237481C9F44E200D2648C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3882374B1C9F44E200D2648C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3882374D1C9F44E200D2648C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		388237501C9F44E200D2648C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		388237521C9F44E200D2648C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		388237581C9F65E600D2648C /* github */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = github; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388237401C9F44E200D2648C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3882373A1C9F44E200D2648C = {
+			isa = PBXGroup;
+			children = (
+				388237451C9F44E200D2648C /* marcando ruta */,
+				388237441C9F44E200D2648C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		388237441C9F44E200D2648C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				388237431C9F44E200D2648C /* marcando ruta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388237451C9F44E200D2648C /* marcando ruta */ = {
+			isa = PBXGroup;
+			children = (
+				388237461C9F44E200D2648C /* AppDelegate.swift */,
+				388237481C9F44E200D2648C /* ViewController.swift */,
+				3882374A1C9F44E200D2648C /* Main.storyboard */,
+				3882374D1C9F44E200D2648C /* Assets.xcassets */,
+				3882374F1C9F44E200D2648C /* LaunchScreen.storyboard */,
+				388237521C9F44E200D2648C /* Info.plist */,
+				388237581C9F65E600D2648C /* github */,
+			);
+			path = "marcando ruta";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		388237421C9F44E200D2648C /* marcando ruta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 388237551C9F44E200D2648C /* Build configuration list for PBXNativeTarget "marcando ruta" */;
+			buildPhases = (
+				3882373F1C9F44E200D2648C /* Sources */,
+				388237401C9F44E200D2648C /* Frameworks */,
+				388237411C9F44E200D2648C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "marcando ruta";
+			productName = "marcando ruta";
+			productReference = 388237431C9F44E200D2648C /* marcando ruta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3882373B1C9F44E200D2648C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Julio Ahuactzin";
+				TargetAttributes = {
+					388237421C9F44E200D2648C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KCNBNM3PV5;
+					};
+				};
+			};
+			buildConfigurationList = 3882373E1C9F44E200D2648C /* Build configuration list for PBXProject "marcando ruta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3882373A1C9F44E200D2648C;
+			productRefGroup = 388237441C9F44E200D2648C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				388237421C9F44E200D2648C /* marcando ruta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		388237411C9F44E200D2648C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388237511C9F44E200D2648C /* LaunchScreen.storyboard in Resources */,
+				388237591C9F65E600D2648C /* github in Resources */,
+				3882374E1C9F44E200D2648C /* Assets.xcassets in Resources */,
+				3882374C1C9F44E200D2648C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3882373F1C9F44E200D2648C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				388237491C9F44E200D2648C /* ViewController.swift in Sources */,
+				388237471C9F44E200D2648C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3882374A1C9F44E200D2648C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3882374B1C9F44E200D2648C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3882374F1C9F44E200D2648C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				388237501C9F44E200D2648C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		388237531C9F44E200D2648C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		388237541C9F44E200D2648C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		388237561C9F44E200D2648C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "marcando ruta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apps.marcando-ruta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		388237571C9F44E200D2648C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "marcando ruta/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apps.marcando-ruta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3882373E1C9F44E200D2648C /* Build configuration list for PBXProject "marcando ruta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388237531C9F44E200D2648C /* Debug */,
+				388237541C9F44E200D2648C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		388237551C9F44E200D2648C /* Build configuration list for PBXNativeTarget "marcando ruta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				388237561C9F44E200D2648C /* Debug */,
+				388237571C9F44E200D2648C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3882373B1C9F44E200D2648C /* Project object */;
+}
